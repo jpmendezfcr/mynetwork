@@ -3,12 +3,12 @@ apply plugin: 'kotlin-android'
 
 android {
 
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId "ru.ifsoft.network"
         minSdkVersion 23
-        targetSdkVersion 34
+        targetSdkVersion 35
         versionCode 116
         versionName '7.6'
         multiDexEnabled true
