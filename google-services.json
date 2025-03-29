@@ -41,6 +41,35 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843126224164:android:f89d33ce3321f4efb26fb1",
+        "android_client_info": {
+          "package_name": "ru.ifsoft.network"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843126224164-pqcn8eufvk1dfnus669fej57vk5bgqak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKbXssawsmKtjLwe30hFdyWn_oVK4Wv8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843126224164-pqcn8eufvk1dfnus669fej57vk5bgqak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"
