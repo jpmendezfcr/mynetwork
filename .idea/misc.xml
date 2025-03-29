@@ -1,0 +1,123 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/drawable-v21/button_primary.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/drawable/blogs_list_row_selector.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/drawable/button_blue.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/drawable/button_blue_default.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/drawable/button_blue_presed.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/drawable/button_gray.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/drawable/button_gray_default.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/drawable/button_primary.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/drawable/chat_left_item.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/drawable/chat_right_item.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/drawable/counter_bg.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/drawable/dialog_comments_bg.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/drawable/ic_guests.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/drawable/messenger_badge_shape.xml" value="0.4161458333333333" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout-land/toolbar.xml" value="0.3386243386243386" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/about_dialog.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/activity_app.xml" value="0.2966485507246377" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/activity_balance.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/activity_favorites.xml" value="0.36684782608695654" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/activity_followers.xml" value="0.36684782608695654" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/activity_group_search.xml" value="0.36684782608695654" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/activity_groups.xml" value="0.36684782608695654" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/activity_main.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/activity_market.xml" value="0.36684782608695654" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/activity_notifications_settings.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/activity_privacy_settings.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/activity_register.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/activity_services.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/activity_settings.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/ad_item.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/base_gift_list_row.xml" value="0.36684782608695654" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/blacklist_row.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/chat_left_item_list_row.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/chat_list_row.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/choice_image_sheet_list.xml" value="0.36684782608695654" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/dialog_comments.xml" value="0.36684782608695654" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/dialog_feelings.xml" value="0.36684782608695654" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/dialog_gifts.xml" value="0.36684782608695654" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/dialog_post.xml" value="0.36684782608695654" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/dialog_search_settings.xml" value="0.36684782608695654" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/dialog_stickers.xml" value="0.36684782608695654" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_account_settings.xml" value="0.36684782608695654" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_balance_history.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_black_list.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_change_password.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_chat.xml" value="0.36684782608695654" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_community.xml" value="0.36684782608695654" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_dialogs.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_favorites.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_feed.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_friends.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_gallery.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_gifts.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_group_settings.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_groups.xml" value="0.36684782608695654" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_guests.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_hashtags.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_likers.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_location.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_login.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_managed_groups.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_market.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_market_my_items.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_market_new_item.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_market_view_item.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_menu.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_new_gallery_item.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_new_group.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_new_item.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_notifications.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_otp_verification.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_people_nearby.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_popular.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_profile.xml" value="0.30842391304347827" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_recently_deleted.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_recovery.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_referrals.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_search.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_services.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_stream.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_support.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_upgrades.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_view_image.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/fragment_view_item.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/friend_request_sheet_list.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/gallery_spotlight_thumbnail.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/gift_list_row.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/gift_thumbnail.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/group_list_row.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/guest_list_row.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/item_action_sheet_list.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/item_balance_history_list_row.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/item_comment_list_row.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/item_dialog_list_row.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/item_editor_sheet_list.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/item_gallery_editor_sheet_list.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/item_group_list_row.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/item_list_row.xml" value="0.30842391304347827" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/item_media_row.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/item_notification_list_row.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/item_restore_actions_sheet_list.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/profile_sheet_list.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/profile_thumbnail.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/register_screen_1.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/tab_layout.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/layout/toolbar.xml" value="0.3713768115942029" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/menu/menu_comment_popup_3.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/xml/privacy_settings.xml" value="0.4" />
+        <entry key="..\:/Android/AndroidStudioProjects/MyNetwork/app/src/main/res/xml/settings.xml" value="0.3713768115942029" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="jbr-21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "843126224164",
+    "project_id": "reddeesperanza-3d517",
+    "storage_bucket": "reddeesperanza-3d517.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843126224164:android:04127aff10da58feb26fb1",
+        "android_client_info": {
+          "package_name": "com.reddeesperanza.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843126224164-vg1qb2amniahctbt3csgjmis95irslpa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.reddeesperanza.app",
+            "certificate_hash": "2f98305ff3235c40dff3ae1aba3b64458b3b3ee9"
+          }
+        },
+        {
+          "client_id": "843126224164-pqcn8eufvk1dfnus669fej57vk5bgqak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKbXssawsmKtjLwe30hFdyWn_oVK4Wv8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843126224164-pqcn8eufvk1dfnus669fej57vk5bgqak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet_authorization"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_bottom_sheet_dialog"
+    android:orientation="vertical"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="85dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <ImageButton
+        android:id="@+id/close_button"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:padding="@dimen/spacing_large"
+        android:layout_gravity="end"
+        app:tint="@color/colorIconTint"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/ic_close_tooltip"
+        android:contentDescription="@string/app_name" />
+
+    <LinearLayout
+        android:id="@+id/main_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/spacing_middle"
+            android:paddingHorizontal="@dimen/spacing_xlarge"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/spacing_medium"
+                android:gravity="center"
+                android:text="@string/auth_2fa_title"
+                android:textColor="@color/colorTitle"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/progressBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginHorizontal="@dimen/spacing_xlarge"
+            android:layout_marginVertical="20dp" >
+
+            <TextView
+                android:id="@+id/progress_subtitle_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:layout_marginBottom="17dp"
+                android:layout_marginHorizontal="@dimen/spacing_xlarge"
+                android:gravity="center"
+                android:text="@string/auth_2fa_subtitle_progress"
+                android:textColor="@color/colorSubTitle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center" >
+
+                <ProgressBar
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </ProgressBar>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/phoneInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginHorizontal="@dimen/spacing_xlarge"
+            android:layout_marginVertical="20dp" >
+
+            <TextView
+                android:id="@+id/phone_subtitle_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:layout_marginBottom="@dimen/spacing_mlarge"
+                android:layout_marginHorizontal="@dimen/spacing_xlarge"
+                android:gravity="center"
+                android:text="@string/auth_2fa_subtitle_phone"
+                android:textColor="@color/colorSubTitle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center" >
+
+                <LinearLayout
+                    android:id="@+id/country_code_text_container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/spacing_xmedium"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:background="@drawable/button_p_code_bg" >
+
+                    <TextView
+                        android:id="@+id/country_code_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="UA +380"
+                        android:textColor="@color/colorSubTitle"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/phoneInputRow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    android:digits="0123456789"
+                    android:hint="@string/auth_2fa_subtitle_phone_hint"
+                    android:ems="10"
+                    android:maxLength="10"
+                    android:imeOptions="actionDone" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/codeInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="@dimen/spacing_xlarge"
+            android:layout_marginVertical="20dp" >
+
+            <TextView
+                android:id="@+id/code_subtitle_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_middle"
+                android:layout_marginBottom="@dimen/spacing_mlarge"
+                android:layout_marginHorizontal="@dimen/spacing_xlarge"
+                android:gravity="center"
+                android:text="@string/auth_2fa_subtitle_code"
+                android:textColor="@color/colorSubTitle"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center" >
+
+                <EditText
+                    android:id="@+id/codeInputRow1"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:inputType="phone"
+                    android:digits="0123456789"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:maxLength="1"
+                    android:imeOptions="actionDone" />
+
+                <EditText
+                    android:id="@+id/codeInputRow2"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:inputType="phone"
+                    android:digits="0123456789"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:maxLength="1"
+                    android:imeOptions="actionDone" />
+
+                <EditText
+                    android:id="@+id/codeInputRow3"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:inputType="phone"
+                    android:digits="0123456789"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:maxLength="1"
+                    android:imeOptions="actionDone" />
+
+                <EditText
+                    android:id="@+id/codeInputRow4"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:inputType="phone"
+                    android:digits="0123456789"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:maxLength="1"
+                    android:imeOptions="actionDone" />
+
+                <EditText
+                    android:id="@+id/codeInputRow5"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:inputType="phone"
+                    android:digits="0123456789"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:maxLength="1"
+                    android:imeOptions="actionDone" />
+
+                <EditText
+                    android:id="@+id/codeInputRow6"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:inputType="phone"
+                    android:digits="0123456789"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:maxLength="1"
+                    android:imeOptions="actionDone" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="@dimen/spacing_xmedium"
+            android:layout_marginBottom="@dimen/spacing_xxlarge"
+            android:layout_marginHorizontal="@dimen/spacing_xlarge"
+            android:orientation="horizontal"
+            android:gravity="center" >
+
+            <android.widget.Button
+                android:id="@+id/action_2fa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_primary_rounded"
+                android:stateListAnimator="@null"
+                android:textColor="@color/colorPrimaryButtonText"
+                android:minHeight="0dp"
+                android:minWidth="0dp"
+                android:padding="10dp"
+                android:textSize="@dimen/rounded_button_text_size"
+                android:text="@string/action_send_code" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

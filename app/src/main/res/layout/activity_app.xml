@@ -1,0 +1,185 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_bg">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/activity_app_bg"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:layout_width="256dp"
+            android:layout_height="84dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="140dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/app_logo" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="150dp" />
+
+        <LinearLayout
+            android:id="@+id/layout_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/gradation_black" >
+
+            <Button
+                android:id="@+id/exploreBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/button_green_rounded"
+                android:stateListAnimator="@null"
+                android:textSize="@dimen/rounded_button_text_size"
+                android:minHeight="0dp"
+                android:minWidth="0dp"
+                android:padding="13dp"
+                android:text="@string/action_explore_free"
+                android:textColor="@color/colorGreenButtonText"
+                android:textStyle="bold" />
+
+            <android.widget.Button
+                android:id="@+id/button_google"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:drawableStart="@drawable/button_icon_google"
+                android:background="@drawable/button_white_rounded"
+                android:stateListAnimator="@null"
+                android:textColor="@color/colorWhiteButtonText"
+                android:minHeight="0dp"
+                android:minWidth="0dp"
+                android:padding="10dp"
+                android:textSize="@dimen/rounded_button_text_size"
+                android:text="@string/action_auth_google" />
+
+            <Button
+                android:id="@+id/button_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:drawableStart="@drawable/button_icon_phone"
+                android:drawableTint="@color/white"
+                android:background="@drawable/button_primary_rounded"
+                android:stateListAnimator="@null"
+                android:textColor="@color/colorPrimaryButtonText"
+                android:minHeight="0dp"
+                android:minWidth="0dp"
+                android:padding="10dp"
+                android:textSize="@dimen/rounded_button_text_size"
+                android:text="@string/action_auth_phone" />
+
+            <Button
+                android:id="@+id/button_signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:drawableStart="@drawable/button_icon_message"
+                android:drawableTint="@color/white"
+                android:background="@drawable/button_primary_rounded"
+                android:stateListAnimator="@null"
+                android:textColor="@color/colorPrimaryButtonText"
+                android:minHeight="0dp"
+                android:minWidth="0dp"
+                android:padding="10dp"
+                android:textSize="@dimen/rounded_button_text_size"
+                android:text="@string/action_auth_email" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginHorizontal="@dimen/spacing_xlarge"
+                android:layout_marginVertical="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="5dp"
+                    android:text="@string/label_auth_terms_promo"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/white"
+                    android:id="@+id/textView1" />
+
+                <TextView
+                    android:id="@+id/button_terms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/signup_label_terms_and_policies"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/spacing_mlarge"
+                android:orientation="horizontal"
+                android:background="@color/colorTopBarBackground"
+                android:gravity="center"
+                android:layout_margin="0dp" >
+
+                <TextView
+                    android:id="@+id/membership_description_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/spacing_middle"
+                    android:gravity="center"
+                    android:text="@string/label_auth_login_promo"
+                    android:textColor="@color/colorTitle"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+                <TextView
+                    android:id="@+id/button_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/action_login"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:layout_behavior="@string/bottom_sheet_behavior" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
